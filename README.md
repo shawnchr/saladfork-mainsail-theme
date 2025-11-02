@@ -81,3 +81,5 @@ On the right-hand side, you will see the Update Manager. You should now notice t
 
 Screenshot
 You now have a fresh new theme to enjoy. With its sleek new design, your ZeroG experience just got a whole lot better. So sit back and enjoy the ride - the view has never looked better!
+<img width="1200" height="800" alt="image" src="https://github.com/user-attachments/assets/81fe0442-6d78-4c82-8904-ffb6acb0dd95" />
+

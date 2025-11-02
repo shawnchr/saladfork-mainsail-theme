@@ -70,7 +70,8 @@ If a notification appears asking you to try again, click on it to proceed.
 Refresh your browser
 Refresh your browser to check if the ZeroG theme is now visible.
 
-refresh
+<img width="141" height="127" alt="image" src="https://github.com/user-attachments/assets/4787a88c-85ba-45d8-b69e-c4dacb4b306c" />
+
 
 Update manager
 On the right-hand side, you will see the Update Manager. You should now notice that ZeroGTheme has been added. This will enable you to easily obtain the latest updates as they become available for the ZeroG Mainsail Theme.

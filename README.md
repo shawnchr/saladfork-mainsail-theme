@@ -64,7 +64,8 @@ Click on the Save & Restart button.
 Restart Moonraker
 If a notification appears asking you to try again, click on it to proceed.
 
-try_again
+<img width="394" height="233" alt="image" src="https://github.com/user-attachments/assets/d8e90631-0f9c-440a-8169-7673885d0c24" />
+
 
 Refresh your browser
 Refresh your browser to check if the ZeroG theme is now visible.

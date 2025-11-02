@@ -8,8 +8,8 @@ Console Commands
 Paste the following code into your console.
 
     cd ~/
-    git clone https://github.com/ZeroGDesign/zerog-mainsail-theme.git
-    bash ~/zerog-mainsail-theme/install.sh
+    git clone https://github.com/shawnchr/saladfork-mainsail-theme.git
+    bash ~/saladfork-mainsail-theme/install.sh
 
 After pasting them into the console, it should resemble this.
 
@@ -42,10 +42,10 @@ update_manager
 
 Insert the following code:
 
-[update_manager client ZeroGTheme]
+[update_manager client SaladForkTheme]
 type: git_repo
-path: ~/zerog-mainsail-theme
-origin: https://github.com/ZeroGDesign/zerog-mainsail-theme.git
+path: ~/saladfork-mainsail-theme
+origin: https://github.com/shawnchr/saladfork-mainsail-theme.git
 install_script: install.sh
 is_system_service: False
 

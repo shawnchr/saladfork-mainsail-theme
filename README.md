@@ -76,7 +76,8 @@ Refresh your browser to check if the ZeroG theme is now visible.
 Update manager
 On the right-hand side, you will see the Update Manager. You should now notice that ZeroGTheme has been added. This will enable you to easily obtain the latest updates as they become available for the ZeroG Mainsail Theme.
 
-update_manager
+<img width="863" height="307" alt="image" src="https://github.com/user-attachments/assets/1b2256e1-cdba-4e1a-8c53-934b2a1a12d2" />
+
 
 Screenshot
 You now have a fresh new theme to enjoy. With its sleek new design, your ZeroG experience just got a whole lot better. So sit back and enjoy the ride - the view has never looked better!

@@ -28,7 +28,6 @@ For the next step of the instructions, you will be using your web client.
 
 To begin, open the web client of your printer. On the left-hand side of the interface, locate the menu and click on ‘Machine’.
 
-machine_web
 <img width="220" height="337" alt="image" src="https://github.com/user-attachments/assets/df9c480b-a84e-4b04-b709-9072fc41f138" />
 
 Config Files

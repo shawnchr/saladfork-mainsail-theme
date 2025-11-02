@@ -53,7 +53,7 @@ Insert the following code:
 
 Your configuration should now resemble the following:
 
-pasted_update_manager
+<img width="592" height="143" alt="image" src="https://github.com/user-attachments/assets/ab1f8f38-061a-447d-8a91-28befc5841c6" />
 
 Save & Restart
 Click on the Save & Restart button.

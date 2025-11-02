@@ -42,12 +42,12 @@ update_manager
 
 Insert the following code:
 
-[update_manager client SaladForkTheme]
-type: git_repo
-path: ~/saladfork-mainsail-theme
-origin: https://github.com/shawnchr/saladfork-mainsail-theme.git
-install_script: install.sh
-is_system_service: False
+    [update_manager client SaladForkTheme]
+    type: git_repo
+    path: ~/saladfork-mainsail-theme
+    origin: https://github.com/shawnchr/saladfork-mainsail-theme.git
+    install_script: install.sh
+    is_system_service: False
 
 Your configuration should now resemble the following:
 

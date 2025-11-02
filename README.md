@@ -40,7 +40,7 @@ Scroll down until you find the text [update_manager].
 
 If you see an additional line that reads “enable_auto_refresh: True”, do not remove it. Simply proceed to the next line. Note that this line may not be present for all users.
 
-update_manager
+<img width="471" height="478" alt="image" src="https://github.com/user-attachments/assets/663e247e-5d5d-4d2d-8851-be74830ad6bb" />
 
 Insert the following code:
 

@@ -13,7 +13,8 @@ Paste the following code into your console.
 
 After pasting them into the console, it should resemble this.
 
-pasteexp.png
+<img width="1256" height="75" alt="image" src="https://github.com/user-attachments/assets/73989e8a-3e1f-4a35-b190-16042e36c24a" />
+
 
 The input field still shows a command we have to run, press ENTER on your keyboard to run the command.
 

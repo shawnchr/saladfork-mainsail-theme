@@ -58,7 +58,8 @@ Your configuration should now resemble the following:
 Save & Restart
 Click on the Save & Restart button.
 
-save_restart
+<img width="182" height="112" alt="image" src="https://github.com/user-attachments/assets/315c94bb-ae8c-4dc9-8429-ab126374d590" />
+
 
 Restart Moonraker
 If a notification appears asking you to try again, click on it to proceed.

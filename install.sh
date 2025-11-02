@@ -1,5 +1,5 @@
 #!/bin/bash
-# Saladfrok Theme installer
+# Saladfork Theme installer
 #
 # Copyright (C) 2021 Christoph Frei <fryakatkop@gmail.com>
 # Copyright (C) 2021 Stephan Wendel aka KwadFan <me@stephanwe.de>
@@ -26,7 +26,7 @@ function install_script {
     ln -sf "${SRCDIR}/.theme" "${KLIPPER_TARGET_DIR}/.theme"
     ln -sf "${SRCDIR}/.git" "${SRCDIR}/.theme/.git"
     echo "Theme has been installed, have fun."
-    #echo "Don't forget to join our discord: https://discord.gg/" << EOF
+    echo "Don't forget to join our discord: https://discord.gg/KQqwBpCpQs" << EOF
 EOF
 }
 

@@ -13,7 +13,7 @@ Paste the following code into your console.
 
 After pasting them into the console, it should resemble this.
 
-images/pasteexp.png
+pasteexp.png
 
 The input field still shows a command we have to run, press ENTER on your keyboard to run the command.
 

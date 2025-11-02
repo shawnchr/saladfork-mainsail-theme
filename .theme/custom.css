@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
+
+.consoleScrollContainer,
+.consoleTable {
+  font-family: monospace;
+  font-size: 13px;
+}
+
+.v-toolbar__title {
+  text-transform: uppercase;
+  font-family: 'Oswald', sans-serif;
+}
+
+.theme--dark.v-icon {
+    color: #0CFF28;
+}
+
+/* This selector targets .v-image__image.v-image__image--cover but excludes instances where it's a descendant of .v-main__wrap 
+disable
+.v-image.v-responsive.theme--dark:not(.v-main__wrap *) > .v-image__image.v-image__image--cover {
+    background-image: url("sidebar-background_christmas.png") !important;
+}
+*/

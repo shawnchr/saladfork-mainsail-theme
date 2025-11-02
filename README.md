@@ -1,1 +1,77 @@
 # saladfork-mainsail-theme
+SSH console
+Your console should appear similar to this.
+
+putty_normal_view
+
+Console Commands
+Paste the following code into your console.
+
+    cd ~/
+    git clone https://github.com/ZeroGDesign/zerog-mainsail-theme.git
+    bash ~/zerog-mainsail-theme/install.sh
+
+After pasting them into the console, it should resemble this.
+
+putty_first_paste
+
+The input field still shows a command we have to run, press ENTER on your keyboard to run the command.
+
+Once executed, your console should display the message ‘Theme has been installed, have fun!’ indicating that this step is now complete.
+
+putty_second_paste
+
+Machine Settings
+For the next step of the instructions, you will be using your web client.
+
+To begin, open the web client of your printer. On the left-hand side of the interface, locate the menu and click on ‘Machine’.
+
+machine_web
+
+Config Files
+Locate the file ‘moonraker.conf’ and click on it.
+
+config_files
+
+Adding Update Script
+Scroll down until you find the text [update_manager].
+
+If you see an additional line that reads “enable_auto_refresh: True”, do not remove it. Simply proceed to the next line. Note that this line may not be present for all users.
+
+update_manager
+
+Insert the following code:
+
+[update_manager client ZeroGTheme]
+type: git_repo
+path: ~/zerog-mainsail-theme
+origin: https://github.com/ZeroGDesign/zerog-mainsail-theme.git
+install_script: install.sh
+is_system_service: False
+
+Your configuration should now resemble the following:
+
+pasted_update_manager
+
+Save & Restart
+Click on the Save & Restart button.
+
+save_restart
+
+Restart Moonraker
+If a notification appears asking you to try again, click on it to proceed.
+
+try_again
+
+Refresh your browser
+Refresh your browser to check if the ZeroG theme is now visible.
+
+refresh
+
+Update manager
+On the right-hand side, you will see the Update Manager. You should now notice that ZeroGTheme has been added. This will enable you to easily obtain the latest updates as they become available for the ZeroG Mainsail Theme.
+
+update_manager
+
+Screenshot
+You now have a fresh new theme to enjoy. With its sleek new design, your ZeroG experience just got a whole lot better. So sit back and enjoy the ride - the view has never looked better!

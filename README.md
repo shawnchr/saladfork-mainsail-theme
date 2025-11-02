@@ -33,7 +33,7 @@ To begin, open the web client of your printer. On the left-hand side of the inte
 Config Files
 Locate the file ‘moonraker.conf’ and click on it.
 
-config_files
+<img width="814" height="501" alt="image" src="https://github.com/user-attachments/assets/c297ae6d-a06d-4c40-b2e4-4c05f59b2d6a" />
 
 Adding Update Script
 Scroll down until you find the text [update_manager].

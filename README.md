@@ -13,7 +13,7 @@ Paste the following code into your console.
 
 After pasting them into the console, it should resemble this.
 
-putty_first_paste
+images/pasteexp.png
 
 The input field still shows a command we have to run, press ENTER on your keyboard to run the command.
 

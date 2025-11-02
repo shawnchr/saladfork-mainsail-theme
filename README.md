@@ -29,7 +29,7 @@ For the next step of the instructions, you will be using your web client.
 To begin, open the web client of your printer. On the left-hand side of the interface, locate the menu and click on ‘Machine’.
 
 machine_web
-machine_web.png
+[machine_web.png](https://github.com/shawnchr/saladfork-mainsail-theme/blob/master/images/machine_web.png)
 
 Config Files
 Locate the file ‘moonraker.conf’ and click on it.

@@ -20,7 +20,8 @@ The input field still shows a command we have to run, press ENTER on your keyboa
 
 Once executed, your console should display the message ‘Theme has been installed, have fun!’ indicating that this step is now complete.
 
-putty_second_paste
+<img width="934" height="280" alt="image" src="https://github.com/user-attachments/assets/eebcb7bf-2bbf-4d41-a09d-fa776d1ea0a9" />
+
 
 Machine Settings
 For the next step of the instructions, you will be using your web client.

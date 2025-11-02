@@ -68,13 +68,13 @@ If a notification appears asking you to try again, click on it to proceed.
 
 
 Refresh your browser
-Refresh your browser to check if the ZeroG theme is now visible.
+Refresh your browser to check if the SaladFork theme is now visible.
 
 <img width="141" height="127" alt="image" src="https://github.com/user-attachments/assets/4787a88c-85ba-45d8-b69e-c4dacb4b306c" />
 
 
 Update manager
-On the right-hand side, you will see the Update Manager. You should now notice that ZeroGTheme has been added. This will enable you to easily obtain the latest updates as they become available for the ZeroG Mainsail Theme.
+On the right-hand side, you will see the Update Manager. You should now notice that SaladForkTheme has been added. This will enable you to easily obtain the latest updates as they become available for the Saladfork Mainsail Theme.
 
 <img width="863" height="307" alt="image" src="https://github.com/user-attachments/assets/1b2256e1-cdba-4e1a-8c53-934b2a1a12d2" />
 

@@ -1,23 +1,346 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
-
-.consoleScrollContainer,
-.consoleTable {
-  font-family: monospace;
-  font-size: 13px;
+/*#@font-face {
+    font-family: 'Apex Mk2';
+    src: url('ApexMk2-Regular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
 }
 
+@font-face {
+    font-family: 'Apex Mk2';
+    src: url('ApexMk2-BoldExtended.otf') format('opentype');
+    font-weight: bold;
+    font-style: normal;
+}*/
+
+.v-application {
+    font-family: 'Oswald', sans-serif;
+}
+
+#nav-header .v-toolbar__title {
+    font-size: 24px;
+    vertical-align: middle;
+    text-transform: uppercase;
+    color: #FB8C00; /* Orange */
+    background-attachment: fixed; /* Keeps background stationary */
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.v-navigation-drawer {
+    background-color: transparent !important;
+}
+
+.v-image__image {
+    background-position: bottom !important;
+}
+
+.v-application .info,
+.v-application .primary {
+    background-color: #FB8C00 !important; /* Orange */
+    border-color: #FB8C00 !important;
+}
+
+
+.v-application .warning {
+    background-color: #89F336 !important; /* Green */
+    border-color: #89F336 !important;
+}
+
+.v-application .error {
+    background-color: #ff0000 !important;
+    border-color: #ff0000 !important;
+}
+
+.v-application .orange--text {
+    color: #FB8C00 !important;
+    caret-color: #89F336 !important;
+}
+
+.v-application .orange {
+    background-color: #FB8C00 !important;
+    border-color: #FB8C00 !important;
+}
+
+.v-application .v-toolbar__title.text-no-wrap {
+    font-weight: bold;
+    color: #FB8C00; /* Orange */
+}
+
+.v-application a {
+    color: #89F336; /* Green */
+}
+
+.v-application .text-no-wrap {
+    color: #FB8C00; /* Orange */
+}
+
+.v-application .primary--text,
+.v-application .info--text {
+    color: #FB8C00 !important; /* Orange */
+}
+
+.v-application .warning--text {
+    color: #89F336 !important; /* Green */
+}
+
+
+/* Keep console colors standard */
+.v-application .miniconsole-panel .warning--text,
+.v-application .consoleTable .warning--text {
+    color: var(--v-warning-base) !important;
+}
+
+.v-application .miniconsole-panel .info--text,
+.v-application .consoleTable .info--text {
+    color: var(--v-info-base) !important;
+}
+
+.v-application .miniconsole-panel .primary--text,
+.v-application .consoleTable .primary--text {
+    color: var(--v-primary-base) !important;
+}
+
+.v-application .miniconsole-panel .error--text,
+.v-application .consoleTable .error--text {
+    color: var(--v-error-base) !important;
+}
+
+.v-application .miniconsole-panel .success--text,
+.v-application .consoleTable .success--text {
+    color: var(--v-success-base) !important;
+}
+
+
+.v-application .machine-configfiles-panel .navigation-container,
+.v-application .machine-systemload-panel .text-body-2,
+.v-application .text--disabled {
+    font-family: Roboto, sans-serif !important;
+    line-height: 1.5;
+}
+
+/* Temperature table */
+.v-application .temperature-panel-table,
+.v-application .history-statistics-panel .v-data-table {
+    font-family: 'Oswald', sans-serif;
+}
+
+/* Update Manager version text */
+.v-application .update-manager-list .row span,
+.v-application .update-manager-list .info--text,
+.v-application .update-manager-list .v-alert__content {
+    font-family: Roboto, sans-serif;
+}
+
+/* System Loads */
+.v-application .machine-systemload-panel .text-body-2 {
+    color: #FB8C00; /* Orange */
+}
+
+/* Temperature section mcus */
+.v-application .machine-systemload-panel .text-body-2 span[aria-haspopup="true"] {
+    color: #89F336 !important; /* Green */
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+}
+
+/* Job Details Panel */
+.os-viewport .text-right.col {
+    color: #FB8C00; /* Orange */
+    font-family: Roboto, sans-serif;
+}
+
+/* toolbar title */
 .v-toolbar__title {
+    font-size: 1.35rem;
+    line-height: 1.5;
+    color: #89F336; /* Green */
+}
+
+.v-application .text-button {
+    color: #89F336; /* Green */
+}
+
+/* button accent color */
+.v-btn:not(.v-btn--outlined).accent,
+.v-btn:not(.v-btn--outlined).info,
+.v-btn:not(.v-btn--outlined).primary,
+.v-btn:not(.v-btn--outlined).secondary,
+.v-btn:not(.v-btn--outlined).warning {
+    color: #89F336; /* Orange */
+}
+
+.v-btn:not(.v-btn--outlined).warning {
+    color: #FB8C00; /* Green */
+}
+
+.v-btn:not(.v-btn--outlined).success {
+    color: #000000; /* Black */
+}
+
+/* icon color */
+.mdi-set, .mdi:before {
+    color: #FB8C00; /* Orange */
+}
+
+/* column text color */
+.col {
+    color: #89F336; /* Green */
+}
+
+/* file name color */
+.v-data-table > .v-data-table__wrapper > table > tbody > tr > td,
+.v-data-table > .v-data-table__wrapper > table > tfoot > tr > td,
+.v-data-table > .v-data-table__wrapper > table > thead > tr > td {
+    color: #FB8C00; /* Orange */
+}
+
+.v-data-table > .v-data-table__wrapper > table > tbody > tr > td.text-right {
+    color: #89F336; /* Green */
+}
+
+.v-data-table > .v-data-table__wrapper > table > tbody > tr > td.text-right:last-child {
+    color: #FB8C00; /* Orange */
+}
+
+.v-input--selection-controls__input {
+    color: #89F336 !important; /* Green */
+}
+
+/* set table font to default */
+.v-data-table {
+    font-family: Roboto, sans-serif;
+    line-height: 1.5;
+}
+
+/* editor text color */
+.prism-editor-wrapper .prism-editor__editor, .prism-editor-wrapper .prism-editor__textarea {
+    color: #FB8C00; /* Orange */
+}
+
+/* nav title color */
+nav ul.navi .nav-link {
+    color: #89F336; /* Green */
+}
+
+/* active nav title background */
+nav ul.navi .nav-link.router-link-active,
+nav ul.navi .nav-link:hover,
+nav ul.navi li.active > .nav-link {
+    background: linear-gradient(to right, #89F336, #FB8C00); /* Gradient from green to orange */
+    background-attachment: fixed; /* Keeps background stationary */
+}
+
+
+.theme--dark.v-icon,
+.v-btn,
+.v-list {
+    color: #FB8C00; /* Orange */
+}
+
+.theme--dark.v-btn.v-btn--icon {
+    color: #89F336; /* Green */
+}
+
+.v-input, 
+.v-input input, 
+.v-input textarea {
+    color: #FB8C00; /* Orange */
+}
+
+/* Active List Icon */
+.v-list .v-list-item--active .v-icon {
+    color: #89F336; /* Green */
+}
+
+/* right side icons */
+.v-btn.v-btn--icon {
+    color: #89F336; /* Green */
+}
+
+/* sidebar opacity */
+.v-navigation-drawer__content,
+.v-navigation-drawer__append {
+    background-color: #00000063;
+}
+
+/* file text color */
+.v-card__title {
+    color: #89F336; /* Green */
+}
+
+.v-tooltip,
+.v-label .v-label--active {
+    background: #89F336; /* Green */
+}
+
+/* active menu item right bar */
+.active-nav-item[data-v-FB8C00ec] {
+    border-right: 4px solid #89F336; /* Green */
+}
+
+.v-list-item__title.menu-item-title {
+  color: #FB8C00;
+  line-height: 40px;
+  font-size: 14px;
+  font-weight: 900;
   text-transform: uppercase;
-  font-family: 'Oswald', sans-serif;
+  opacity: .99;
 }
 
-.theme--dark.v-icon {
-    color: #0CFF28;
+/* remove alert background transparency */
+.v-alert--text {
+    background: #000000 !important;
 }
 
-/* This selector targets .v-image__image.v-image__image--cover but excludes instances where it's a descendant of .v-main__wrap 
-disable
-.v-image.v-responsive.theme--dark:not(.v-main__wrap *) > .v-image__image.v-image__image--cover {
-    background-image: url("sidebar-background_christmas.png") !important;
+/* Klipper shutdown text */
+.v-application .v-alert.warning--text {
+    color: #FB8C00 !important; /* Orange */
 }
-*/
+
+/* Circle Toolhead controls */
+svg g.home_button[data-v-FB8C00a8], 
+svg a#home_all_center[data-v-FB8C00a8],
+svg a#tilt_adjust.warning[data-v-FB8C00a8],
+svg a#stepper_off.warning[data-v-FB8C00a8] {
+    fill: #FB8C00; /* Orange */
+}
+
+/* Homed */
+svg .homed g.home_button[data-v-8e4f3fa8], 
+svg .homed a#home_all_center[data-v-8e4f3fa8],
+svg a#tilt_adjust.primary[data-v-8e4f3fa8], 
+svg a#stepper_off.primary[data-v-8e4f3fa8] {
+    fill: #FB8C00; /* Green */
+}
+
+/* AFC Panel */
+.v-application .afc-control-panel .spool-card-header .success--text,
+.v-application .afc-control-panel .lane-status .success--text {
+    color: var(--v-success-base) !important;
+}
+
+.v-application .afc-control-panel .spool-card-header .warning--text,
+.v-application .afc-control-panel .lane-status .warning--text {
+    color: var(--v-warning-base) !important;
+}
+
+.v-application .afc-control-panel .spool-card-header .primary--text,
+.v-application .afc-control-panel .lane-status .primary--text {
+    color: var(--v-primary-base) !important;
+}
+
+.v-application .afc-control-panel .spool-card-header .error--text,
+.v-application .afc-control-panel .lane-status .error--text {
+    color: var(--v-error-base) !important;
+}
+
+/* Editor Panel */
+.editor-dialog .subheading {
+    font-family: Roboto, sans-serif;
+}
+
+/* File Name Editor */
+.v-text-field__slot {
+    font-family: Roboto, sans-serif;
+}
